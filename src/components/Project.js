@@ -25,14 +25,14 @@ function Project(props) {
                   </div>
   
                   <div className="content has-text-left">
-                
+                    <div className="card">
                       <footer className="card-footer">
                         <a
                           href={project.repo}
                           className="card-footer-item"
                           target="_blank" rel="noreferrer"
                         >
-                          See the Repo!
+                          Project Repo
                         </a>
                         <br />
                         <a
@@ -40,13 +40,14 @@ function Project(props) {
                           className="card-footer-item"
                           target="_blank" rel="noreferrer"
                         >
-                          See the Live Site!
+                          Live Site
                         </a>
                       </footer>
                     </div>
                   </div>
                 </div>
               </div>
+            </div>
           ))}
         </div>
       </div>

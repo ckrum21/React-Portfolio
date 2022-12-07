@@ -4,17 +4,16 @@ function Footer() {
     return (
 
         <footer className="footer">
-            <div>
+            <div className="content has-text-centered">
             <p>
                 <a href="https://github.com/ckrum21">Github</a>
-                <hr />
+                <br/>
                 <a href="https://www.linkedin.com/in/chelsea-krum-382513160/">Linkedin</a>
-                <hr />
+                <br/>
                 <a href="https://www.instagram.com/chelsea21autumn/">instagram</a>
             </p>
           </div>  
         </footer>
-        
     );
 }
 
