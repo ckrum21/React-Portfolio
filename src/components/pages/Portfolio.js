@@ -1,10 +1,21 @@
 import React from "react";
+import Project from '../Project';
 
-export default function Portfolio() {
+const projects = {
+    id: '0',
+    title: 'Team Profile Generator',
+    image: '../image/teamprofile.jpg',
+    repo: 'https://github.com/ckrum21/Team-Profile-Generator',
+    live: 'https://github.com/ckrum21/Team-Profile-Generator/',
+}
+
+function Portfolio() {
     return (
         <div>
             <h1>Portfolio Page</h1>
-            <p>test</p>
+            <Project projects = {projects} />
         </div>
     );
 }
+
+export default Portfolio;
