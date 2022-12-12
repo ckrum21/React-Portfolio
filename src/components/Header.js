@@ -25,17 +25,17 @@ function Header() {
     };
     return (
         <div>
-          <nav className="navbar">
-            <div className="navbar-brand">
-                <span className="content is-large">Chelsea Krum</span>
+          <nav className="navbar justify-content-center ">
+            <div className="navbar-brand ">
+                <h1 className="content ">Chelsea Krum</h1>
             </div>
           </nav>
-          {/* Pass the state value and the setter as props to NavTabs */}
+          
           <Navbar
             currentPage={currentPage}
             setCurrentPage={setCurrentPage}
           />
-          {/* Call the renderPage function passing in the currentPage */}
+          
           <main>
             <div>{renderPage(currentPage)}</div>
           </main>

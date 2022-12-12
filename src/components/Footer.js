@@ -3,8 +3,8 @@ import React from "react";
 function Footer() {
     return (
 
-        <footer className="footer">
-            <div className="content has-text-centered">
+        <footer className="footer ">
+            <div className="footer justify-content-center">
             <p>
                 <a href="https://github.com/ckrum21">Github</a>
                 <br/>

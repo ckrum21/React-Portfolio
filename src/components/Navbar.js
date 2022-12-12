@@ -2,7 +2,7 @@ import React from 'react';
 
 function Navbar({ currentPage, setCurrentPage }) {
     return (
-      <ul className="nav nav-tabs">
+      <ul className="nav nav-tabs justify-content-center">
         <li className="nav-item">
           <a 
           href="#about"
